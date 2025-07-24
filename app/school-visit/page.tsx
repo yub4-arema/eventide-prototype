@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 // サンプルデータ
 const mockPosts = [
@@ -303,24 +304,24 @@ export default function SchoolVisit() {
         <div className="fixed bottom-6 right-6 flex flex-col gap-3">
           {/* デバッグ用ページ遷移ボタン */}
           <div className="flex flex-col gap-2">
-            <a 
+            <Link 
               href="/"
               className="bg-blue-500 text-white px-3 py-2 rounded-lg text-xs hover:bg-blue-600 transition-colors shadow-lg"
             >
               Tech Conf
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/school-visit"
               className="bg-green-500 text-white px-3 py-2 rounded-lg text-xs hover:bg-green-600 transition-colors shadow-lg"
             >
               School Visit
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/chofu-festival"
               className="bg-orange-500 text-white px-3 py-2 rounded-lg text-xs hover:bg-orange-600 transition-colors shadow-lg"
             >
               Tech Hub UEC
-            </a>
+            </Link>
           </div>
           
           {/* 投稿ボタン */}
