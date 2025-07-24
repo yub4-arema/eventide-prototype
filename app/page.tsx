@@ -69,7 +69,7 @@ const mockPosts = [
       },
       {
         id: "3-2",
-        username: "豆腐あらま",
+        username: "ひがしあめ",
         userIcon: "https://picsum.photos/40/40?random=5",
         time: "8分前",
         content: "会場への案内図も共有していただけると助かります！"
@@ -104,7 +104,7 @@ const mockPosts = [
   },
   {
     id: 5,
-    username: "豆腐あらま",
+    username: "ひがしあめ",
     userIcon: "https://picsum.photos/40/40?random=5",
     time: "15分前",
     content: "会場のWi-Fiのパスワードは「TechConf2024」です！",
