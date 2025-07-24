@@ -283,6 +283,12 @@ export default function Home() {
             >
               Tech Hub UEC
             </Link>
+            <Link 
+              href="/kyoto-tour"
+              className="bg-red-500 text-white px-3 py-2 rounded-lg text-xs hover:bg-red-600 transition-colors shadow-lg"
+            >
+              京都ツアー
+            </Link>
           </div>
           
           {/* 投稿ボタン */}
