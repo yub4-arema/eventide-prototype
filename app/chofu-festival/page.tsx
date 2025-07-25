@@ -248,6 +248,9 @@ export default function TechHubUEC() {
         <div className="fixed bottom-6 right-6 flex flex-col gap-3">
           {/* デバッグ用ページ遷移ボタン */}
           <div className="flex flex-col gap-2">
+            <div className="text-xs text-gray-500 bg-white/90 px-2 py-1 rounded text-center shadow-sm">
+              ※デモ用遷移ボタン
+            </div>
             <Link 
               href="/"
               className="bg-blue-500 text-white px-3 py-2 rounded-lg text-xs hover:bg-blue-600 transition-colors shadow-lg"
@@ -265,6 +268,12 @@ export default function TechHubUEC() {
               className="bg-orange-500 text-white px-3 py-2 rounded-lg text-xs hover:bg-orange-600 transition-colors shadow-lg"
             >
               Tech Hub UEC
+            </Link>
+            <Link 
+              href="/kyoto-tour"
+              className="bg-red-500 text-white px-3 py-2 rounded-lg text-xs hover:bg-red-600 transition-colors shadow-lg"
+            >
+              京都ツアー
             </Link>
           </div>
           
